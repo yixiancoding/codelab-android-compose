@@ -154,6 +154,7 @@ val SkyBlue15 =  Color(0xFF033144)
 val SkyBlue10 =  Color(0xFF02202C)
 
 
+
 // TODO: Confirm literal name
 
 
@@ -165,10 +166,10 @@ val md_theme_light_secondary = Blue40
 val md_theme_light_onSecondary = Color.White
 val md_theme_light_secondaryContainer = Blue90
 val md_theme_light_onSecondaryContainer = Blue30
-val md_theme_light_tertiary = Orange90
+val md_theme_light_tertiary = Orange50
 val md_theme_light_onTertiary = Color.White
-val md_theme_light_tertiaryContainer = Orange50
-val md_theme_light_onTertiaryContainer = Color.White
+val md_theme_light_tertiaryContainer = Orange98
+val md_theme_light_onTertiaryContainer = Orange90
 val md_theme_light_error = Red30
 val md_theme_light_errorContainer = Red90
 val md_theme_light_onError = Color.White
@@ -178,36 +179,36 @@ val md_theme_light_onBackground = Gray10
 val md_theme_light_surface = Gray98
 val md_theme_light_onSurface = Gray10
 val md_theme_light_surfaceVariant = Color.White
-val md_theme_light_onSurfaceVariant = Gray10
+val md_theme_light_onSurfaceVariant = Gray40
 val md_theme_light_outline = Gray80
 val md_theme_light_inverseOnSurface = Gray95
 val md_theme_light_inverseSurface = Gray20
 val md_theme_light_inversePrimary = Blue80
 val md_theme_light_shadow = Color.Black
 val md_theme_light_surfaceTint = Blue90
-val md_theme_light_outlineVariant = Gray50
+val md_theme_light_outlineVariant = Gray80
 val md_theme_light_scrim = Color(0xFF000000)
 
 
-val md_theme_dark_primary = Blue80
-val md_theme_dark_onPrimary = Blue20
-val md_theme_dark_primaryContainer = Blue30
+val md_theme_dark_primary = Blue60
+val md_theme_dark_onPrimary = Blue15
+val md_theme_dark_primaryContainer = Blue20
 val md_theme_dark_onPrimaryContainer = Blue90
 val md_theme_dark_secondary = Blue80
-val md_theme_dark_onSecondary = Blue20
-val md_theme_dark_secondaryContainer = Blue30
+val md_theme_dark_onSecondary = Blue30
+val md_theme_dark_secondaryContainer = Blue15
 val md_theme_dark_onSecondaryContainer = Blue90
-val md_theme_dark_tertiary = Orange80
-val md_theme_dark_onTertiary = Orange30
-val md_theme_dark_tertiaryContainer = Orange50
-val md_theme_dark_onTertiaryContainer = Color.White
+val md_theme_dark_tertiary = Orange70
+val md_theme_dark_onTertiary = Color.White
+val md_theme_dark_tertiaryContainer = Orange10
+val md_theme_dark_onTertiaryContainer = Orange15
 val md_theme_dark_error = Red80
 val md_theme_dark_errorContainer = Red30
 val md_theme_dark_onError = Red80
 val md_theme_dark_onErrorContainer = Red90
 val md_theme_dark_background = Gray20
 val md_theme_dark_onBackground = Gray90
-val md_theme_dark_surface = Gray10
+val md_theme_dark_surface = Gray15
 val md_theme_dark_onSurface = Gray90
 val md_theme_dark_surfaceVariant = Gray20
 val md_theme_dark_onSurfaceVariant = Gray60
@@ -217,7 +218,7 @@ val md_theme_dark_inverseSurface = Gray90
 val md_theme_dark_inversePrimary = Blue40
 val md_theme_dark_shadow = Color(0xFF000000)
 val md_theme_dark_surfaceTint = Blue40
-val md_theme_dark_outlineVariant = Color(0xFF4F4539)
+val md_theme_dark_outlineVariant = Gray30
 val md_theme_dark_scrim = Color(0xFF000000)
 
 
