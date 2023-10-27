@@ -53,6 +53,16 @@ private val LightColors = lightColorScheme(
     surfaceTint = md_theme_light_surfaceTint,
     outlineVariant = md_theme_light_outlineVariant,
     scrim = md_theme_light_scrim,
+
+//Todo: how do we define these surface variants tokens? https://developer.android.com/reference/kotlin/androidx/compose/material3/ColorScheme#surfaceContainer()
+   /* surfaceBright = Gray98,
+    surfaceDim = Gray87,
+    surfaceContainer = Gray94,
+    surfaceContainerHigh = Gray92,
+    surfaceContainerHighest = Gray90,
+    surfaceContainerLow = Gray96,
+    surfaceContainerLowest = White,
+    */
 )
 
 
@@ -88,6 +98,17 @@ private val DarkColors = darkColorScheme(
     surfaceTint = md_theme_dark_surfaceTint,
     outlineVariant = md_theme_dark_outlineVariant,
     scrim = md_theme_dark_scrim,
+
+    //Todo: how do we define these surface variants tokens? https://developer.android.com/reference/kotlin/androidx/compose/material3/ColorScheme#surfaceContainer()
+    /*surfaceBright = Gray24,
+    surfaceDim = Gray6,
+    surfaceContainer = Gray12,
+    surfaceContainerHigh = Gray17,
+    surfaceContainerHighest = Gray22,
+    surfaceContainerLow = Gray10,
+    surfaceContainerLowest = Gray4,
+     */
+
 )
 
 

@@ -77,17 +77,27 @@ val Red10 = Color(0xFF2E0905)
 
 
 val Gray98 =  Color(0xFFFAFAFA)
+val Gray96 =  Color(0xFFF5F5F5)
 val Gray95 =  Color(0xFFF2F2F2)
+val Gray94 =  Color(0xFFF0F0F0)
+val Gray92 =  Color(0xFFEBEBEB)
 val Gray90 =  Color(0xFFE6E6E6)
+val Gray87 =  Color(0xFFDEDEDE)
 val Gray80 =  Color(0xFFD1D1D1)
 val Gray70 =  Color(0xFFB3B3B3)
 val Gray60 =  Color(0xFF999999)
 val Gray50 =  Color(0xFF808080)
 val Gray40 =  Color(0xFF666666)
 val Gray30 =  Color(0xFF4C4C4C)
+val Gray24 =  Color(0xFF3D3D3D)
+val Gray22 =  Color(0xFF383838)
 val Gray20 =  Color(0xFF333333)
+val Gray17 =  Color(0xFF2B2B2B)
 val Gray15 =  Color(0xFF262626)
+val Gray12 =  Color(0xFF1F1F1F)
 val Gray10 =  Color(0xFF191919)
+val Gray6 =  Color(0xFF0F0F0F)
+val Gray4 =  Color(0xFF0A0A0A)
 
 
 
@@ -153,41 +163,44 @@ val SkyBlue20 =  Color(0xFF05435C)
 val SkyBlue15 =  Color(0xFF033144)
 val SkyBlue10 =  Color(0xFF02202C)
 
+val White = Color(0xFFFFFFFF)
+val Black = Color(0xFF000000)
 
 
-// TODO: Confirm literal name
-
+//M3 system color tokens
 
 val md_theme_light_primary = Blue40
-val md_theme_light_onPrimary = Color.White
+val md_theme_light_onPrimary = White
 val md_theme_light_primaryContainer = Blue90
 val md_theme_light_onPrimaryContainer = Blue30
 val md_theme_light_secondary = Blue40
-val md_theme_light_onSecondary = Color.White
+val md_theme_light_onSecondary = White
 val md_theme_light_secondaryContainer = Blue90
 val md_theme_light_onSecondaryContainer = Blue30
 val md_theme_light_tertiary = Orange50
-val md_theme_light_onTertiary = Color.White
-val md_theme_light_tertiaryContainer = Orange98
-val md_theme_light_onTertiaryContainer = Orange90
+val md_theme_light_onTertiary = White
+//Todo: tertiaryContainer and onTertiaryContainer are colors with opacity configuration. How do we handle this?
+val md_theme_light_tertiaryContainer = Orange50 //opacity 10%
+val md_theme_light_onTertiaryContainer = Orange50 //opacity 25%
+
 val md_theme_light_error = Red30
 val md_theme_light_errorContainer = Red90
-val md_theme_light_onError = Color.White
+val md_theme_light_onError = White
 val md_theme_light_onErrorContainer = Red20
 val md_theme_light_background = Gray98
 val md_theme_light_onBackground = Gray10
 val md_theme_light_surface = Gray98
 val md_theme_light_onSurface = Gray10
-val md_theme_light_surfaceVariant = Color.White
+val md_theme_light_surfaceVariant = White
 val md_theme_light_onSurfaceVariant = Gray40
 val md_theme_light_outline = Gray80
 val md_theme_light_inverseOnSurface = Gray95
 val md_theme_light_inverseSurface = Gray20
 val md_theme_light_inversePrimary = Blue80
-val md_theme_light_shadow = Color.Black
+val md_theme_light_shadow = Black
 val md_theme_light_surfaceTint = Blue90
 val md_theme_light_outlineVariant = Gray80
-val md_theme_light_scrim = Color(0xFF000000)
+val md_theme_light_scrim = Black
 
 
 val md_theme_dark_primary = Blue60
@@ -199,9 +212,12 @@ val md_theme_dark_onSecondary = Blue30
 val md_theme_dark_secondaryContainer = Blue15
 val md_theme_dark_onSecondaryContainer = Blue90
 val md_theme_dark_tertiary = Orange70
-val md_theme_dark_onTertiary = Color.White
-val md_theme_dark_tertiaryContainer = Orange10
-val md_theme_dark_onTertiaryContainer = Orange15
+val md_theme_dark_onTertiary = White
+
+//Todo: tertiaryContainer and onTertiaryContainer are colors with opacity configuration. How do we handle this?
+val md_theme_dark_tertiaryContainer = Orange50 //opacity=10%
+val md_theme_dark_onTertiaryContainer = Orange50 //opacity=25%
+
 val md_theme_dark_error = Red80
 val md_theme_dark_errorContainer = Red30
 val md_theme_dark_onError = Red80
@@ -216,10 +232,59 @@ val md_theme_dark_outline = Gray30
 val md_theme_dark_inverseOnSurface = Gray20
 val md_theme_dark_inverseSurface = Gray90
 val md_theme_dark_inversePrimary = Blue40
-val md_theme_dark_shadow = Color(0xFF000000)
+val md_theme_dark_shadow = Black
 val md_theme_dark_surfaceTint = Blue40
 val md_theme_dark_outlineVariant = Gray30
-val md_theme_dark_scrim = Color(0xFF000000)
+val md_theme_dark_scrim = Black
 
 
 val seed = Blue40
+
+
+
+//Surface variants
+//todo: how do we define these?
+
+val md_theme_light_surfaceBright = Gray98
+val md_theme_light_surfaceDim = Gray87
+val md_theme_light_surfaceContainer = Gray94
+val md_theme_light_surfaceContainerHigh = Gray92
+val md_theme_light_surfaceContainerHighest = Gray90
+val md_theme_light_surfaceContainerLow = Gray96
+val md_theme_light_surfaceContainerLowest = White
+
+
+val md_theme_dark_surfaceBright = Gray24
+val md_theme_dark_surfaceDim = Gray6
+val md_theme_dark_surfaceContainer = Gray12
+val md_theme_dark_surfaceContainerHigh = Gray17
+val md_theme_dark_surfaceContainerHighest = Gray22
+val md_theme_dark_surfaceContainerLow = Gray10
+val md_theme_dark_surfaceContainerLowest = Gray4
+
+
+
+//TeamSnap Custom Color Tokens
+//todo: do we need to add these to theme kt?
+val ts_theme_light_positive = Green30
+val ts_theme_light_onPositive = White
+val ts_theme_light_positiveContainer = Green90
+val ts_theme_light_onPositiveContainer = Green20
+val ts_theme_light_cautionContainer = Yellow90
+val ts_theme_light_onCautionContainer = Yellow30
+val ts_theme_light_cautionOutline= Yellow70
+val ts_theme_light_infoContainer = SkyBlue90
+val ts_theme_light_onInfoContainer = SkyBlue30
+val ts_theme_light_infoOutline = SkyBlue30
+
+
+val ts_theme_dark_positive = Green30
+val ts_theme_dark_onPositive = White
+val ts_theme_dark_positiveContainer = Green15
+val ts_theme_dark_onPositiveContainer = Green90
+val ts_theme_dark_cautionContainer = Yellow30
+val ts_theme_dark_onCautionContainer = Yellow90
+val ts_theme_dark_cautionOutline= Yellow40
+val ts_theme_dark_infoContainer = SkyBlue30
+val ts_theme_dark_onInfoContainer = SkyBlue90
+val ts_theme_dark_infoOutline = SkyBlue30
