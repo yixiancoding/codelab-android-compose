@@ -115,8 +115,8 @@ val Orange20 =  Color(0xFF7A3205)
 val Orange15 =  Color(0xFF582404)
 val Orange10 =  Color(0xFF311402)
 
-
-
+val Orange50_10 = Color(0x1AF56B15)
+val Orange50_25 = Color(0x40F56B15)
 
 val Yellow98 =  Color(0xFFFFFCEB)
 val Yellow95 =  Color(0xFFFEF7CC)
@@ -179,10 +179,8 @@ val md_theme_light_secondaryContainer = Blue90
 val md_theme_light_onSecondaryContainer = Blue30
 val md_theme_light_tertiary = Orange50
 val md_theme_light_onTertiary = White
-//Todo: tertiaryContainer and onTertiaryContainer are colors with opacity configuration. How do we handle this?
-val md_theme_light_tertiaryContainer = Orange50 //opacity 10%
-val md_theme_light_onTertiaryContainer = Orange50 //opacity 25%
-
+val md_theme_light_tertiaryContainer = Orange50_10 //opacity 10%
+val md_theme_light_onTertiaryContainer = Orange50_25 //opacity 25%
 val md_theme_light_error = Red30
 val md_theme_light_errorContainer = Red90
 val md_theme_light_onError = White
@@ -213,11 +211,8 @@ val md_theme_dark_secondaryContainer = Blue15
 val md_theme_dark_onSecondaryContainer = Blue90
 val md_theme_dark_tertiary = Orange70
 val md_theme_dark_onTertiary = White
-
-//Todo: tertiaryContainer and onTertiaryContainer are colors with opacity configuration. How do we handle this?
-val md_theme_dark_tertiaryContainer = Orange50 //opacity=10%
-val md_theme_dark_onTertiaryContainer = Orange50 //opacity=25%
-
+val md_theme_dark_tertiaryContainer = Orange50_10 //opacity=10%
+val md_theme_dark_onTertiaryContainer = Orange50_25 //opacity=25%
 val md_theme_dark_error = Red80
 val md_theme_dark_errorContainer = Red30
 val md_theme_dark_onError = Red80
@@ -277,7 +272,6 @@ val ts_theme_light_infoContainer = SkyBlue90
 val ts_theme_light_onInfoContainer = SkyBlue30
 val ts_theme_light_infoOutline = SkyBlue30
 
-
 val ts_theme_dark_positive = Green30
 val ts_theme_dark_onPositive = White
 val ts_theme_dark_positiveContainer = Green15
@@ -288,3 +282,4 @@ val ts_theme_dark_cautionOutline= Yellow40
 val ts_theme_dark_infoContainer = SkyBlue30
 val ts_theme_dark_onInfoContainer = SkyBlue90
 val ts_theme_dark_infoOutline = SkyBlue30
+
