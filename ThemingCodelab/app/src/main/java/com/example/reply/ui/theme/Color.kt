@@ -238,7 +238,7 @@ val seed = Blue40
 
 
 //Surface variants
-//todo: how do we define these?
+//todo: surface variant tokens are available in lastest Alpha
 
 val md_theme_light_surfaceBright = Gray98
 val md_theme_light_surfaceDim = Gray87
@@ -260,7 +260,7 @@ val md_theme_dark_surfaceContainerLowest = Gray4
 
 
 //TeamSnap Custom Color Tokens
-//todo: do we need to add these to theme kt?
+//todo: to add custom color tokens
 val ts_theme_light_positive = Green30
 val ts_theme_light_onPositive = White
 val ts_theme_light_positiveContainer = Green90
